@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a4394;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.todo-container{
+    background-color: #b8c8e2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.input-btn-container{
+    display: flex;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 6px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 6px 16px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #26389c;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+li.completed{
+    text-decoration: line-through;
+    color: #999;
+}
+button.remove-btn{
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+button.remove-btn:hover{
+    background-color: #e64a19;
+}
+
+/* Background change for maximum 450px width screen */
+
+@media (max-width: 450px){
+    body{
+        background-color: #b8c8e2;
+    }
+}
