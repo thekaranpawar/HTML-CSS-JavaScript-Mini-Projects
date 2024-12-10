@@ -28,11 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
             taskList.removeChild(li);
         });
 
-        // Append buttons to the task list item
         li.appendChild(completeButton);
         li.appendChild(removeButton);
-
-        // Append the task item to the list
         taskList.appendChild(li);
     }
 
