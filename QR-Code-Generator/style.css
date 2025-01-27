@@ -59,7 +59,7 @@ img{
     border: 1px solid #47663B;
 }
 .error{
-    animation: shake 0.1s linear 10;
+    animation: shake 0.1s linear 10;   /* Input shake error feature */
 }
 @keyframes shake{
     0%{
