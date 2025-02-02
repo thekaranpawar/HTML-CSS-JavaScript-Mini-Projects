@@ -15,11 +15,6 @@ body{
     background-color: #fff;
     border-radius: 5px;
 }
-p{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px auto;
-}
 input{
     width: 100%;
     height: 40px;
@@ -59,7 +54,7 @@ img{
     border: 1px solid #47663B;
 }
 .error{
-    animation: shake 0.1s linear 10;
+    animation: shake 0.1s linear 10;   /* Input shake error feature */
 }
 @keyframes shake{
     0%{
