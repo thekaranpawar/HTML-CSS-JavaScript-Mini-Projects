@@ -2,11 +2,13 @@
 
 Projects That Will Be Included :
 
-Interactive To-Do List: A simple to-do list application that allows users to add, mark as completed, and delete tasks.
+To-Do List: A simple to-do list application that allows users to add, mark as completed, and delete tasks.
 
 Quiz App: An interactive quiz game that dynamically generates questions and tracks the user's score.
 
 QR Code Generator: A QR Code Generator creates scannable codes from text or URLs, allowing easy sharing of information via mobile devices.
+
+Calculator: allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It features an intuitive interface with numeric buttons, operation buttons, and a display for results. The design is clean and responsive, offering smooth functionality for quick calculations.
 
 Technologies Used:
 
